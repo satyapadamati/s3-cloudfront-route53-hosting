@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DEVOPS Learning — Motivate & Build</title>
+  <meta name="description" content="A simple, beautiful, animated site to motivate enthusiastic learners on their DevOps journey."/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- Animated gradient background -->
+  <div class="bg-gradient"></div>
+  <header class="nav">
+    <a href="#home" class="logo">DEV<span>OPS</span> Learning</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#pillars">Pillars</a>
+      <a href="#path">Learning Path</a>
+      <a href="#cta">Get Started</a>
+    </nav>
+  </header>
+
+  <main id="home" class="hero">
+    <div class="hero-inner">
+      <h1 class="reveal">
+        Learn <span class="accent">DevOps</span> — Build, Ship, <span id="typed"></span>
+      </h1>
+      <p class="tagline reveal-delay">
+        A lightweight, animated site to motivate enthusiastic people to start and grow in DevOps.
+      </p>
+      <div class="cta-group reveal-delay-2">
+        <a class="btn primary" href="#path">Start Learning</a>
+        <a class="btn ghost" href="#pillars">Why DevOps?</a>
+      </div>
+      <div class="hero-cards">
+        <div class="glass card reveal">
+          <h3>Automate</h3>
+          <p>CI/CD pipelines that deliver value reliably.</p>
+        </div>
+        <div class="glass card reveal-delay">
+          <h3>Observe</h3>
+          <p>Metrics, logs, and traces to improve continuously.</p>
+        </div>
+        <div class="glass card reveal-delay-2">
+          <h3>Collaborate</h3>
+          <p>Bridge Dev & Ops for faster feedback loops.</p>
+        </div>
+      </div>
+      <div class="scroll-indicator">Scroll</div>
+    </div>
+    <canvas id="orbs"></canvas>
+  </main>
+
+  <section id="pillars" class="section">
+    <h2 class="section-title reveal">The Three Pillars</h2>
+    <div class="grid">
+      <article class="tile reveal">
+        <h3>Culture</h3>
+        <p>Empathy, ownership, and blameless postmortems fuel improvement.</p>
+      </article>
+      <article class="tile reveal-delay">
+        <h3>Automation</h3>
+        <p>IaC, pipelines, and testing reduce toil and increase consistency.</p>
+      </article>
+      <article class="tile reveal-delay-2">
+        <h3>Measurement</h3>
+        <p>Use DORA metrics to guide decisions, not guesses.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="path" class="section alt">
+    <h2 class="section-title reveal">A Simple Learning Path</h2>
+    <ol class="path reveal">
+      <li><strong>Git & GitHub</strong> — learn branching, PRs, and actions.</li>
+      <li><strong>Linux & Shell</strong> — files, processes, networking.</li>
+      <li><strong>Docker</strong> — images, containers, compose.</li>
+      <li><strong>CI/CD</strong> — Jenkins, GitHub Actions, GitLab CI.</li>
+      <li><strong>Kubernetes</strong> — pods, services, deployments.</li>
+      <li><strong>Cloud</strong> — AWS/Azure/GCP basics & IAM.</li>
+      <li><strong>Observability</strong> — Prometheus, Grafana, ELK/EFK.</li>
+      <li><strong>Security</strong> — secrets, policies, scanning.</li>
+    </ol>
+    <p class="note reveal-delay">
+      Tip: build tiny projects for each step — repetition beats theory.
+    </p>
+  </section>
+
+  <section id="cta" class="section">
+    <h2 class="section-title reveal">Ready to Begin?</h2>
+    <p class="center reveal-delay">Clone this site, add your own links, and share your journey.</p>
+    <div class="cta-group center reveal-delay-2">
+      <a class="btn primary" href="#" onclick="alert('You got this! 🚀'); return false;">I’m In</a>
+      <a class="btn ghost" href="https://tinyurl.com/satyaprojects" target="_blank" rel="noopener">See Projects</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> DEVOPS Learning • Built with ♥</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
