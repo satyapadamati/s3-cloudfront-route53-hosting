@@ -2,7 +2,7 @@
 
 This project demonstrates how to host a static website using Amazon S3, enhance performance and security with Amazon CloudFront, and manage domain resolution through Amazon Route 53 — while using a custom domain from GoDaddy.
 
-🔗 Live Website: https://www.letschill.shop
+🔗 Live Website: https://letschill.shop
 
 🚀 Project Overview
 
