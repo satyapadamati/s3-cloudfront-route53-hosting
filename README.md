@@ -243,4 +243,11 @@ Understanding end-to-end AWS networking & deployment
 This project is open-source and available under the MIT License
 
 <img width="1182" height="482" alt="diagram-export-11-11-2025-3_20_43-PM" src="https://github.com/user-attachments/assets/b136b617-a444-46a9-b43a-ce72b98970d5" />
+<img width="1917" height="1015" alt="Screenshot 2025-11-11 152858" src="https://github.com/user-attachments/assets/d5ef31fd-5b57-43f0-8461-5ea8c3e51bbc" />
+<img width="1918" height="1011" alt="Screenshot 2025-11-11 152915" src="https://github.com/user-attachments/assets/069ab9bb-7345-49a7-bedf-7213f243157a" />
+<img width="1919" height="1027" alt="Screenshot 2025-11-11 152935" src="https://github.com/user-attachments/assets/ea1ccc41-10dd-4d6e-9a43-09315cd84274" />
+<img width="1919" height="1016" alt="Screenshot 2025-11-11 153016" src="https://github.com/user-attachments/assets/bb5b061e-2780-4708-9af1-2adb12763858" />
+<img width="1916" height="1014" alt="Screenshot 2025-11-11 152826" src="https://github.com/user-attachments/assets/9da5f549-18a2-430b-9654-521b86d20fe3" />
+
+
 
